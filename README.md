@@ -1,78 +1,114 @@
+আচ্ছা, তাহলে আমি এমন একটি হ্যাকার স্টাইল ডিজাইন বানিয়ে দিচ্ছি যেখানে:
 
-   ▄████████  ▄█   ▄█          ▄████████ ████████▄     ▄████████    ▄████████ 
-  ███    ███ ███  ███         ███    ███ ███   ▀███   ███    ███   ███    ███ 
-  ███    █▀  ███▌ ███         ███    █▀  ███    ███   ███    █▀    ███    █▀  
-  ███        ███▌ ███        ▄███▄▄▄     ███    ███  ▄███▄▄▄       ███        
-▀███████████ ███▌ ███       ▀▀███▀▀▀     ███    ███ ▀▀███▀▀▀     ▀███████████ 
-         ███ ███  ███         ███    █▄  ███    ███   ███    █▄           ███ 
-   ▄█    ███ ███  ███▌    ▄   ███    ███ ███   ▄███   ███    ███    ▄█    ███ 
- ▄████████▀  █▀   █████▄▄██   ██████████ ████████▀    ██████████  ▄████████▀  
-                ▀                                                            
+· ASCII আর্ট থাকবে যা উঠবে নামবে (মানে সেটা শুধু দেখতে কুল, আসলে তো আর অ্যানিমেশন নেই, কিন্তু এমন টেক্সট যেন ওঠানামা করছে – টাইপোগ্রাফি দিয়ে)
+· "DEVELOPER_RAIM" নাম থাকবে জ্বলজ্বলে (glitch effect)
+· প্লেলিস্ট URL থাকবে টার্মিনাল স্টাইলে
+· বার চলে যাবে – একটা প্রোগ্রেস বার এনে দিচ্ছি (যেটা মাল্টি-লাইন টেক্সটে দেখাবে)
+· পুরো জিনিসটা দেখতে যেন হ্যাকার মুভির মতো
+
+নিচে পুরো README.md দিচ্ছি। এটা তোমার রিপোজিটরিতে আপলোড করলে স্লিক লেগেছে।
+
+---
+
+🔥 README.md (হ্যাকার আর্ট + গ্লিচ + টার্মিনাল স্টাইল)
+
+```markdown
+```text
+                                                                     
+  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄ 
+ ▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌
+ ▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀▀▀▀█░▌
+ ▐░▌          ▐░▌       ▐░▌▐░▌       ▐░▌▐░▌          ▐░▌       ▐░▌
+ ▐░█▄▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄█░▌▐░▌       ▐░▌▐░▌          ▐░▌       ▐░▌
+ ▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌       ▐░▌▐░▌          ▐░▌       ▐░▌
+  ▀▀▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀█░▌▐░▌       ▐░▌▐░▌          ▐░▌       ▐░▌
+           ▐░▌▐░▌       ▐░▌▐░▌       ▐░▌▐░▌          ▐░▌       ▐░▌
+  ▄▄▄▄▄▄▄▄▄█░▌▐░▌       ▐░▌▐░█▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄█░▌
+ ▐░░░░░░░░░░░▌▐░▌       ▐░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌
+  ▀▀▀▀▀▀▀▀▀▀▀  ▀         ▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀ 
+                                                                     
 ```
 
-<h1 align="center">🔥 TOFFEE AUTO-UPDATE PLAYLIST 🔥</h1>
-<p align="center"><strong>Bangladesh's #1 IPTV – Auto updated every 30 minutes</strong></p>
+<h1 align="center"><code>🔥 TOFFEE AUTO-PLAYLIST 🔥</code></h1>
+<p align="center"><strong><code>[ Bangladesh IPTV – Live & Premium Channels ]</code></strong></p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/RaimToffee/toffee-playlist/main/ott_view.jpg" width="90%">
+</p>
 
 ---
 
-⚡ FEATURES
+🧨 INSTANT PLAYLIST (RAW LINKS)
 
-· ✅ 100% Working Premium Channels
-· ✅ Auto-updated Cookies & Tokens (via GitHub Actions)
-· ✅ Ready-to-use M3U with Headers (OTT Navigator & NS Player)
-· ✅ JSON Format for Developers
+```markdown
+> 📱 ANDROID (Network Stream Player)
+> 👉 https://raw.githubusercontent.com/RaimToffee/toffee-playlist/main/toffee_NS_Player.m3u
 
----
-
-📡 PLAYLIST URLS (Direct Raw Links)
-
-Device Player URL
-📱 Android Network Stream Player https://raw.githubusercontent.com/RaimToffee/toffee-playlist/main/toffee_NS_Player.m3u
-📺 Android TV OTT Navigator / TiviMate https://raw.githubusercontent.com/RaimToffee/toffee-playlist/main/toffee_OTT_Navigator.m3u
-
-Note: Copy the URL and paste directly into your IPTV app. No short links – just pure raw power.
+> 📺 ANDROID TV (OTT Navigator / TiviMate)
+> 👉 https://raw.githubusercontent.com/RaimToffee/toffee-playlist/main/toffee_OTT_Navigator.m3u
+```
 
 ---
 
-🐍 FOR DEVELOPERS (JSON API)
+⚡ AUTOMATIC UPDATES – PROGRESS BAR
+
+```text
+[████████████████████████████████████████] 100% → Every 30 minutes
+[*] Fetching fresh cookies & edge tokens...
+[*] Generating M3U with headers...
+[✓] Done. Your playlist is LIVE.
+```
+
+---
+
+🐍 DEVELOPER MODE – JSON API
+
+```bash
+curl -s https://raw.githubusercontent.com/RaimToffee/toffee-playlist/main/toffee_channel_data.json | jq '.channels[].name'
+```
+
+Or Python:
 
 ```python
 import requests
-
-url = "https://raw.githubusercontent.com/RaimToffee/toffee-playlist/main/toffee_channel_data.json"
-data = requests.get(url).json()
-
-for channel in data["channels"]:
-    print(channel["name"], channel["link"], channel["headers"])
+data = requests.get("https://raw.githubusercontent.com/RaimToffee/toffee-playlist/main/toffee_channel_data.json").json()
+for ch in data["channels"]:
+    print(ch["name"], ch["link"][:50])
 ```
 
 ---
 
-👨‍💻 CREDITS
+👁️ GLITCH CREDITS
 
 ```text
-╔══════════════════════════════════════╗
-║  Made with 🖤 by DEVELOPER_RAIM      ║
-║  Telegram: @DEVELOPER_RAIM           ║
-║  GitHub: RaimToffee                  ║
-╚══════════════════════════════════════╝
+       __...--~~~~~-._   _..--~~~~~--.._
+     .'           _.-~` | `~-._           '.
+    /          .'   _.-``````-._   '.          \
+   |        .'   .'              '.   '.        |
+   |       |    /   DEVELOPER_RAIM  \    |       |
+    \      '.   '.                .'   .'      /
+     '.      '-._`-..______..-'_.-'      .'
+       `-._         ``~~~~~''         _.-'
+           `-.._                 _..-'
+                ``~~~~~~~'''''`
+```
+
+Telegram: @DEVELOPER_RAIM
+GitHub: RaimToffee
+
+---
+
+⚠️ WARNING
+
+```text
+[!] Only for educational use.
+[!] Requires Bangladesh IP (geo-locked).
+[!] Auto-update runs every hour – if a channel fails, wait 30-60 min.
+[!] Do not re-upload without credit.
 ```
 
 ---
 
-⚠️ IMPORTANT NOTE
+<p align="center"><strong><code>🖤 HACK THE STREAM – BANGLADESHI PRIDE 🖤</code></strong></p>
+```
 
-· Geo-restriction: Only works from Bangladesh IP addresses.
-· Educational purpose only. Don't use for illegal activities.
-· The M3U files are automatically regenerated every hour with fresh cookies.
-· If a channel stops working, wait for the next auto-update (max 30-60 minutes).
-
----
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/RaimToffee/toffee-playlist/main/ott_view.jpg" width="80%">
-</p>
-
-<p align="center">
-  🔥 <strong>Enjoy buffer-free streaming – Made in Bangladesh 🇧🇩</strong> 🔥
-</p>
