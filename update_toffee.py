@@ -1,13 +1,4 @@
 import json
-import urllib.request
-import os
-
-# লাইভ আপডেটেড JSON এর URL (BINOD-XD এর রেপো)
-JSON_URL = "https://github.com/RaimToffee/toffee-playlist/blob/main/toffee_channel_data.json"
-
-def download_json():
-    with urllib.request.urlopen(JSON_URL) as response:
-        return json.load(response)
 
 def generate_m3u(channels, filename, include_headers=True):
     m3u = "#EXTM3U\n"
@@ -31,20 +22,25 @@ def generate_m3u(channels, filename, include_headers=True):
     print(f"✅ {filename} generated")
 
 def main():
-    print("Downloading latest channel data...")
-    data = download_json()
+    # লোকাল JSON ফাইল পড়ুন
+    try:
+        with open("toffee_channel_data.json", "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except FileNotFoundError:
+        print("❌ toffee_channel_data.json not found in repository!")
+        return
+    except json.JSONDecodeError as e:
+        print(f"❌ Invalid JSON: {e}")
+        return
+    
     channels = data.get("channels", [])
     if not channels:
-        print("❌ No channels found!")
+        print("❌ No channels found in JSON!")
         return
     
     generate_m3u(channels, "toffee_OTT_Navigator.m3u", include_headers=True)
     generate_m3u(channels, "toffee_NS_Player.m3u", include_headers=False)
-    
-    # এছাড়া আপডেটেড JSON টাও সেভ করে রাখো (ঐচ্ছিক)
-    with open("toffee_channel_data.json", "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2)
-    print("✅ Also saved fresh toffee_channel_data.json")
+    print("✅ All playlists updated successfully!")
 
 if __name__ == "__main__":
     main()
