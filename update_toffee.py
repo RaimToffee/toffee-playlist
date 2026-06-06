@@ -3,7 +3,7 @@ import urllib.request
 import os
 
 # লাইভ আপডেটেড JSON এর URL (BINOD-XD এর রেপো)
-JSON_URL = "https://github.com/RaimToffee/toffee-playlist/main/toffee_channel_data.json"
+JSON_URL = "https://github.com/RaimToffee/toffee-playlist/blob/main/toffee_OTT_Navigator.m3u"
 
 def download_json():
     with urllib.request.urlopen(JSON_URL) as response:
