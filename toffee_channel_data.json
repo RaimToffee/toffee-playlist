@@ -1,9 +1,21 @@
 {
   "name": "Toffee App All Channel Link with Headers",
-  "owner": "BINOD-XD ReyadXShipu \nTelegram: https://t.me/shanto27\nGithub:https://github.com/BINOD-XD",
-  "channels_amount": 75,
-  "updated_on": "06-06-2026 on 01:47:27 PM \u2600\ufe0f",
+  "owner": "DEVELOPER_RAIM\nTelegram: https://t.me/DEVELOPER_RAIM\nGitHub: https://github.com/RaimToffee",
+  "channels_amount": 76,
+  "updated_on": "06-06-2026 on 12:00:00 PM ☀️",
   "channels": [
+    {
+      "category_name": "LIVE",
+      "name": "FIFA WORLDCUP 2026",
+      "link": "https://prod-cdn01-live.toffeelive.com/live/FIFA-2026/index.m3u8?edge-cache-token=Expires=1780736201~Starts=1780736081~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Signature=rbHCIbVHczRaMAR4aSQ-Na000jm9hK83zv72vDvVKgqSe65bl2vb-8ly98kPR3As-10-KBEdl-Bt9Hh9Zj1aBQ",
+      "headers": {
+        "Host": "prod-cdn01-live.toffeelive.com",
+        "cookie": "Edge-Cache-Cookie=Expires=1780822482~_GO=Generated~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Signature=AUI5ZZZ3xSbwmmkMBLDvwSDreExU-mFROJQRabb8fAQ0LRo66iqIy-tqOsoEIPLNCYtJItLmYRFm2E3O7r8OdfeiMB8P",
+        "user-agent": "okhttp/4.11.0",
+        "accept-encoding": "gzip"
+      },
+      "logo": "https://i.supaimg.com/6e0b602c-5350-4fe9-b4fc-46a57958ab96/0c1a7c4a-5c46-4cf6-a3a5-a4f7916a55a4.png"
+    },
     {
       "category_name": "LIVE",
       "name": "TOFFEE Sports VIP",
@@ -122,7 +134,7 @@
       "logo": "https://assets-prod.services.toffeelive.com/w_640,q_75,f_webp/NCLx35oBEef-9-uVh-Dg/posters/af9773c7-7971-41a2-9b78-121fcb240c48.png"
     },
     {
-      "category_name": "\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6\u09c0 \u099a\u09cd\u09af\u09be\u09a8\u09c7\u09b2",
+      "category_name": "বাংলাদেশী চ্যানেল",
       "name": "ATN Bangla",
       "link": "https://bldcmprod-cdn.toffeelive.com/cdn/live/atn_bangla/playlist.m3u8",
       "headers": {
@@ -135,7 +147,7 @@
       "logo": "https://assets-prod.services.toffeelive.com/w_640,q_75,f_webp/MCLv35oBEef-9-uVH-D2/posters/0d1e571c-ebb2-4277-9814-760a4f1603a6.png"
     },
     {
-      "category_name": "\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6\u09c0 \u099a\u09cd\u09af\u09be\u09a8\u09c7\u09b2",
+      "category_name": "বাংলাদেশী চ্যানেল",
       "name": "Nexus TV",
       "link": "https://bldcmprod-cdn.toffeelive.com/cdn/live/nexus_tv/playlist.m3u8",
       "headers": {
@@ -148,7 +160,7 @@
       "logo": "https://assets-prod.services.toffeelive.com/w_480,q_75,f_webp/FHz5PJwBcqxnFHJBdAqW/posters/419869ac-8ddf-4909-86c1-b69f0a3adf13.png"
     },
     {
-      "category_name": "\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6\u09c0 \u099a\u09cd\u09af\u09be\u09a8\u09c7\u09b2",
+      "category_name": "বাংলাদেশী চ্যানেল",
       "name": "Movie Bangla",
       "link": "https://bldcmprod-cdn.toffeelive.com/cdn/live/movie_bangla/playlist.m3u8",
       "headers": {
@@ -161,7 +173,7 @@
       "logo": "https://assets-prod.services.toffeelive.com/w_480,q_75,f_webp/CXz4PJwBcqxnFHJBPwrG/posters/2f913e34-3a6c-45e6-9f1f-97bf129a2ff5.png"
     },
     {
-      "category_name": "\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6\u09c0 \u099a\u09cd\u09af\u09be\u09a8\u09c7\u09b2",
+      "category_name": "বাংলাদেশী চ্যানেল",
       "name": "Mohona TV",
       "link": "https://bldcmprod-cdn.toffeelive.com/cdn/live/mohona_tv/playlist.m3u8",
       "headers": {
@@ -174,7 +186,7 @@
       "logo": "https://assets-prod.services.toffeelive.com/w_480,q_75,f_webp/-Xz3PJwBcqxnFHJBDAlE/posters/fecea361-8b60-4aeb-a530-6e27eee8178a.png"
     },
     {
-      "category_name": "\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6\u09c0 \u099a\u09cd\u09af\u09be\u09a8\u09c7\u09b2",
+      "category_name": "বাংলাদেশী চ্যানেল",
       "name": "Ananda TV",
       "link": "https://bldcmprod-cdn.toffeelive.com/cdn/live/anandatv/playlist.m3u8",
       "headers": {
@@ -187,7 +199,7 @@
       "logo": "https://assets-prod.services.toffeelive.com//wCM3l5sBEef-9-uVXFvD/posters/d80f7aee-5bd7-4edc-97eb-ead0e3ebbe09.png"
     },
     {
-      "category_name": "\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6\u09c0 \u099a\u09cd\u09af\u09be\u09a8\u09c7\u09b2",
+      "category_name": "বাংলাদেশী চ্যানেল",
       "name": "Bijoy TV",
       "link": "https://bldcmprod-cdn.toffeelive.com/cdn/live/bijoytv/playlist.m3u8",
       "headers": {
@@ -200,7 +212,7 @@
       "logo": "https://assets-prod.services.toffeelive.com//bns4l5sBcqxnFHJBVZ32/posters/feaf9f3d-cc3b-4a3d-81a3-2cb703e561eb.png"
     },
     {
-      "category_name": "\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6\u09c0 \u099a\u09cd\u09af\u09be\u09a8\u09c7\u09b2",
+      "category_name": "বাংলাদেশী চ্যানেল",
       "name": "Global TV",
       "link": "https://bldcmprod-cdn.toffeelive.com/cdn/live/global_tv/playlist.m3u8",
       "headers": {
@@ -213,7 +225,7 @@
       "logo": "https://assets-prod.services.toffeelive.com/w_640,q_75,f_webp/0y_tDJsBNnOkwJLWNrdE/posters/2ff058e1-630f-4657-8dc6-b677e65642c5.png"
     },
     {
-      "category_name": "\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6\u09c0 \u099a\u09cd\u09af\u09be\u09a8\u09c7\u09b2",
+      "category_name": "বাংলাদেশী চ্যানেল",
       "name": "Channel S",
       "link": "https://bldcmprod-cdn.toffeelive.com/cdn/live/channel_s/playlist.m3u8",
       "headers": {
@@ -226,7 +238,7 @@
       "logo": "https://assets-prod.services.toffeelive.com//WyPuDJsBEef-9-uVUA_z/posters/ea20055c-a824-443c-8083-ce8e2da8b922.png"
     },
     {
-      "category_name": "\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6\u09c0 \u099a\u09cd\u09af\u09be\u09a8\u09c7\u09b2",
+      "category_name": "বাংলাদেশী চ্যানেল",
       "name": "Bangla TV",
       "link": "https://bldcmprod-cdn.toffeelive.com/cdn/live/bangla_tv/playlist.m3u8",
       "headers": {
@@ -239,7 +251,7 @@
       "logo": "https://assets-prod.services.toffeelive.com//JiK-_poBEef-9-uVZv6L/posters/757a328e-70d6-45de-b093-0a843c69ade7.png"
     },
     {
-      "category_name": "\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6\u09c0 \u099a\u09cd\u09af\u09be\u09a8\u09c7\u09b2",
+      "category_name": "বাংলাদেশী চ্যানেল",
       "name": "Asian TV",
       "link": "https://bldcmprod-cdn.toffeelive.com/cdn/live/asian_tv/playlist.m3u8",
       "headers": {
@@ -252,7 +264,7 @@
       "logo": "https://assets-prod.services.toffeelive.com//MyK__poBEef-9-uVmf5l/posters/1eadef5b-28e7-4dc2-b42f-c67a3357c9a0.png"
     },
     {
-      "category_name": "\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6\u09c0 \u099a\u09cd\u09af\u09be\u09a8\u09c7\u09b2",
+      "category_name": "বাংলাদেশী চ্যানেল",
       "name": "Channel i",
       "link": "https://bldcmprod-cdn.toffeelive.com/cdn/live/channel_i/playlist.m3u8",
       "headers": {
@@ -265,7 +277,7 @@
       "logo": "https://assets-prod.services.toffeelive.com/w_640,q_75,f_webp/qnv835oBcqxnFHJBuQcB/posters/348dfac3-c1e0-485d-a72b-3d282c9e2c73.png"
     },
     {
-      "category_name": "\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6\u09c0 \u099a\u09cd\u09af\u09be\u09a8\u09c7\u09b2",
+      "category_name": "বাংলাদেশী চ্যানেল",
       "name": "Ekhon TV",
       "link": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ekhon_tv/playlist.m3u8",
       "headers": {
@@ -278,7 +290,7 @@
       "logo": "https://assets-prod.services.toffeelive.com/w_640,q_75,f_webp/o3v235oBcqxnFHJBkAdC/posters/159af631-796d-4342-a2a7-c272f32bcd32.png"
     },
     {
-      "category_name": "\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6\u09c0 \u099a\u09cd\u09af\u09be\u09a8\u09c7\u09b2",
+      "category_name": "বাংলাদেশী চ্যানেল",
       "name": "Rajdhani TV",
       "link": "https://bldcmprod-cdn.toffeelive.com/cdn/live/rajdhani_tv/playlist.m3u8",
       "headers": {
@@ -291,7 +303,7 @@
       "logo": "https://assets-prod.services.toffeelive.com/w_480,q_75,f_webp/KECGB54BuUSiBsg_dHyj/posters/d032f456-c7e8-4fd4-928b-ea5359960ed7.png"
     },
     {
-      "category_name": "\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6\u09c0 \u099a\u09cd\u09af\u09be\u09a8\u09c7\u09b2",
+      "category_name": "বাংলাদেশী চ্যানেল",
       "name": "Islamic TV",
       "link": "https://bldcmprod-cdn.toffeelive.com/cdn/live/islamic_tv/playlist.m3u8",
       "headers": {
