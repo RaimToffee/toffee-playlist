@@ -1,4 +1,7 @@
 #EXTM3U
+#EXTINF:-1 tvg-logo="https://i.supaimg.com/6e0b602c-5350-4fe9-b4fc-46a57958ab96/0c1a7c4a-5c46-4cf6-a3a5-a4f7916a55a4.png",FIFA WORLDCUP 2026
+#EXTHTTP:{"cookie":"Edge-Cache-Cookie=Expires=1780822482~_GO=Generated~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Signature=AUI5ZZZ3xSbwmmkMBLDvwSDreExU-mFROJQRabb8fAQ0LRo66iqIy-tqOsoEIPLNCYtJItLmYRFm2E3O7r8OdfeiMB8P","user-agent":"okhttp/4.11.0"}
+https://prod-cdn01-live.toffeelive.com/live/FIFA-2026/index.m3u8?edge-cache-token=Expires=1780736201~Starts=1780736081~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Signature=rbHCIbVHczRaMAR4aSQ-Na000jm9hK83zv72vDvVKgqSe65bl2vb-8ly98kPR3As-10-KBEdl-Bt9Hh9Zj1aBQ
 #EXTINF:-1 tvg-logo="https://images.toffeelive.com/images/program/19779/logo/240x240/mobile_logo_975410001725875598.png",TOFFEE Sports VIP
 #EXTHTTP:{"cookie":"Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t:Expires=1780904847:KeyName=prod_linear:Signature=lY_peil19sPx3a1ndy2aro949sDeEcf1HY0ZzqdeaMWEz_xeZ07kM5HPY7hEJP64ZIap8lDGYehSHUTv3plvAQ","user-agent":"okhttp/4.11.0"}
 https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8
