@@ -1,17 +1,15 @@
-#!/usr/bin/env python3
 import json
 import urllib.request
 import os
 
-def download_json(url):
-    try:
-        with urllib.request.urlopen(url) as response:
-            return json.load(response)
-    except Exception as e:
-        print(f"Error downloading JSON: {e}")
-        raise
+# লাইভ আপডেটেড JSON এর URL (BINOD-XD এর রেপো)
+JSON_URL = "https://raw.githubusercontent.com/BINOD-XD/Toffee-Auto-Update-Playlist/main/toffee_channel_data.json"
 
-def generate_m3u(channels, include_headers):
+def download_json():
+    with urllib.request.urlopen(JSON_URL) as response:
+        return json.load(response)
+
+def generate_m3u(channels, filename, include_headers=True):
     m3u = "#EXTM3U\n"
     for ch in channels:
         name = ch.get("name", "Unknown")
@@ -28,40 +26,25 @@ def generate_m3u(channels, include_headers):
             m3u += f'{link}\n'
         else:
             m3u += f'#EXTINF:-1 tvg-logo="{logo}",{name}\n{link}\n'
-    return m3u
+    with open(filename, "w", encoding="utf-8") as f:
+        f.write(m3u)
+    print(f"✅ {filename} generated")
 
 def main():
-    # প্রথমে লোকাল JSON ফাইল খুঁজবে (আপনার এডিট করা)
-    if os.path.exists("toffee_channel_data.json"):
-        with open("toffee_channel_data.json", "r", encoding="utf-8") as f:
-            data = json.load(f)
-        print("✅ Loaded local toffee_channel_data.json")
-    else:
-        # লোকাল না থাকলে GitHub থেকে ডাউনলোড
-        print("⚠️ Local file not found, downloading from GitHub...")
-        data = download_json("https://raw.githubusercontent.com/Gtajisan/Toffee-Auto-Update-Playlist/main/toffee_channel_data.json")
-    
+    print("Downloading latest channel data...")
+    data = download_json()
     channels = data.get("channels", [])
     if not channels:
-        print("❌ No channels found in JSON!")
+        print("❌ No channels found!")
         return
     
-    # OTT Navigator ফাইল (হেডার সহ)
-    ott_m3u = generate_m3u(channels, include_headers=True)
-    with open("toffee_OTT_Navigator.m3u", "w", encoding="utf-8") as f:
-        f.write(ott_m3u)
-    print("✅ Generated toffee_OTT_Navigator.m3u")
+    generate_m3u(channels, "toffee_OTT_Navigator.m3u", include_headers=True)
+    generate_m3u(channels, "toffee_NS_Player.m3u", include_headers=False)
     
-    # NS Player ফাইল (হেডার ছাড়া – সাধারণ প্লেয়ারের জন্য)
-    ns_m3u = generate_m3u(channels, include_headers=False)
-    with open("toffee_NS_Player.m3u", "w", encoding="utf-8") as f:
-        f.write(ns_m3u)
-    print("✅ Generated toffee_NS_Player.m3u")
-    
-    # JSON ফাইলটি রিপোজিটরিতে আপডেট করে রাখুন (লোকাল কপি)
+    # এছাড়া আপডেটেড JSON টাও সেভ করে রাখো (ঐচ্ছিক)
     with open("toffee_channel_data.json", "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-    print("✅ Updated toffee_channel_data.json")
+        json.dump(data, f, indent=2)
+    print("✅ Also saved fresh toffee_channel_data.json")
 
 if __name__ == "__main__":
     main()
