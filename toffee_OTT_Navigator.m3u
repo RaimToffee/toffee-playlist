@@ -4,7 +4,7 @@
 https://prod-cdn01-live.toffeelive.com/live/FIFA-2026/index.m3u8
 #EXTINF:-1 tvg-logo="https://images.toffeelive.com/images/program/19779/logo/240x240/mobile_logo_975410001725875598.png",TOFFEE Sports VIP
 #EXTHTTP:{"cookie":"Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t:Expires=1770454179:KeyName=prod_linear:Signature=eZAqqnWnwkreQy5c7uw9GSU7ElCE8APAAroc3rDpwBgcZjzIne25gTFBtPcErPdPesVUTIdsrnTv2Fz783BDAA","user-agent":"okhttp/4.11.0"}
-https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8
+https://prod-cdn01-live.toffeelive.com/live/FIFA-2026-2/index.m3u8
 #EXTINF:-1 tvg-logo="https://images.toffeelive.com/images/program/2708/logo/240x240/mobile_logo_724353001725875591.png",TOFFEE Movies VIP
 #EXTHTTP:{"cookie":"Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t:Expires=1770454179:KeyName=prod_linear:Signature=eZAqqnWnwkreQy5c7uw9GSU7ElCE8APAAroc3rDpwBgcZjzIne25gTFBtPcErPdPesVUTIdsrnTv2Fz783BDAA","user-agent":"okhttp/4.11.0"}
 https://bldcmprod-cdn.toffeelive.com/cdn/live/toffee_movie/playlist.m3u8
