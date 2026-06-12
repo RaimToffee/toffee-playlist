@@ -19,7 +19,7 @@
     {
       "category_name": "LIVE",
       "name": "TOFFEE Sports VIP",
-      "link": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
+      "link": "https://prod-cdn01-live.toffeelive.com/live/FIFA-2026-2/index.m3u8",
       "headers": {
         "Host": "bldcmprod-cdn.toffeelive.com",
         "cookie": "Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t:Expires=1770454179:KeyName=prod_linear:Signature=eZAqqnWnwkreQy5c7uw9GSU7ElCE8APAAroc3rDpwBgcZjzIne25gTFBtPcErPdPesVUTIdsrnTv2Fz783BDAA",
