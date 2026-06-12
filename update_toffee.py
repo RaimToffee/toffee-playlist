@@ -37,7 +37,7 @@ def read_extra_m3u():
         return ""
 
 def main():
-    # JSON ডেটা লোড
+    # 1. JSON লোড
     try:
         with open("toffee_channel_data.json", "r", encoding="utf-8") as f:
             data = json.load(f)
@@ -49,14 +49,15 @@ def main():
         return
 
     channels = data.get("channels", [])
+    print(f"ℹ️ Total channels loaded: {len(channels)}")
     if not channels:
-        print("❌ No channels found in JSON!")
+        print("❌ No channels found in JSON! Nothing to generate.")
         return
 
-    # ✅ NS Player-এর জন্য ফাইল (হেডার ছাড়া) — এই লাইনটি আগে ভুল ছিল
+    # ✅ NS Player ফাইল (হেডার ছাড়া)
     generate_m3u(channels, "toffee_NS_Player.m3u", include_headers=False)
 
-    # OTT Navigator-এর জন্য বেস M3U (হেডার সহ)
+    # OTT Navigator ফাইল (হেডার সহ)
     toffee_m3u = "#EXTM3U\n"
     for ch in channels:
         name = ch.get("name", "Unknown")
@@ -72,7 +73,6 @@ def main():
         toffee_m3u += f'#EXTHTTP:{exthttp}\n'
         toffee_m3u += f'{link}\n'
 
-    # extra_channels.m3u যোগ করা
     extra = read_extra_m3u()
     full_m3u = toffee_m3u + extra
     with open("toffee_OTT_Navigator.m3u", "w", encoding="utf-8") as f:
