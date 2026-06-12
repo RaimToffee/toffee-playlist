@@ -18,17 +18,23 @@ def generate_m3u_content(channels, include_headers=True):
             ua = headers.get("user-agent", "okhttp/4.11.0")
             m3u += f'#EXTHTTP:{{"cookie":"{cookie}","user-agent":"{ua}"}}\n'
         
-        m3u += f'{link}\n'
+        # প্রতিটি লিঙ্কের শেষে একটি নিখুঁত নিউলাইন নিশ্চিত করা হচ্ছে
+        m3u += f'{link.strip()}\n'
     return m3u
 
 def read_extra_m3u():
-    """extra_channels.m3u ফাইল থাকলে তা পড়ে রিটার্ন করবে, না থাকলে ফাঁকা স্ট্রিং"""
+    """extra_channels.m3u ফাইল থাকলে তা পড়ে এবং ক্লিন করে রিটার্ন করবে"""
     try:
         with open("extra_channels.m3u", "r", encoding="utf-8") as f:
-            content = f.read()
+            content = f.read().strip() # শুরুর এবং শেষের বাড়তি স্পেস/লাইন বাদ দিলাম
+            
+            if not content:
+                return ""
+                
             # ফাইলের শুরুতে #EXTM3U থাকলে সেটি বাদ দিন
             if content.startswith("#EXTM3U"):
                 content = content[len("#EXTM3U"):].lstrip()
+            
             return content
     except FileNotFoundError:
         print("⚠️ extra_channels.m3u not found, skipping extra channels.")
@@ -55,7 +61,6 @@ def main():
         return
     
     # 2. টফি চ্যানেল দিয়ে NS_Player ফাইল তৈরি করুন (হেডার ছাড়া)
-    # এখানে ভুল GitHub URL-এর জায়গায় সঠিক লোকাল ফাইলের নাম দেওয়া হয়েছে
     ns_player_content = generate_m3u_content(channels, include_headers=False)
     with open("toffee_NS_Player.m3u", "w", encoding="utf-8") as f:
         f.write(ns_player_content)
@@ -68,8 +73,11 @@ def main():
     extra = read_extra_m3u()
     
     # 5. সম্পূর্ণ M3U ফাইল তৈরি করুন (টফি + এক্সট্রা)
-    # যদি এক্সট্রা চ্যানেল থাকে তবেই যোগ হবে, নাহলে শুধু টফি চ্যানেল থাকবে
-    full_m3u = toffee_m3u_content + extra if extra else toffee_m3u_content
+    if extra:
+        # টফি এবং এক্সট্রা চ্যানেলের মাঝে একটি পরিষ্কার নিউলাইন (\n) নিশ্চিত করা হলো
+        full_m3u = toffee_m3u_content + "\n" + extra + "\n"
+    else:
+        full_m3u = toffee_m3u_content
     
     with open("toffee_OTT_Navigator.m3u", "w", encoding="utf-8") as f:
         f.write(full_m3u)
