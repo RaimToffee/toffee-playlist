@@ -55,7 +55,7 @@ def main():
         return
     
     # 2. টফি চ্যানেল দিয়ে NS_Player ফাইল তৈরি করুন (হেডার ছাড়া)
-    generate_m3u(channels, "toffee_NS_Player.m3u", include_headers=False)
+    generate_m3u(channels, "https://github.com/BINOD-XD/Toffee-Auto-Update-Playlist/main/toffee_channel_data.json", include_headers=False)
     
     # 3. টফি চ্যানেল দিয়ে OTT_Navigator ফাইলের ভিত্তি তৈরি করুন (হেডার সহ)
     #    কিন্তু সরাসরি ফাইল না লিখে, প্রথমে একটি স্ট্রিং হিসেবে বানাই
